@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fluttertoast/fluttertoast.dart';
-
-import 'home_page/home_page.dart';
+import 'package:u1/screen/home_page.dart';
 
 void main() {
   runApp(const MyApp());

@@ -24,7 +24,7 @@ class _CoustomTextFormFieldState extends State<CoustomTextFormField> {
       padding: const EdgeInsets.only(left: 8.0,right: 8),
       child: TextFormField(
         validator: (value){
-          if(value==null || value!.isEmpty){
+          if(value==null || value.isEmpty){
             return "This field can not be empty";
           }
         },
